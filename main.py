@@ -1,6 +1,8 @@
 ## main стартовый модуль проекта
 #project 4
-# TODO import <зависимость из задания>
+
+# TODO - переименовать функции
+from functions import func1, func2
 
 def main():
     #TODO - сделай вызов функций из functions
