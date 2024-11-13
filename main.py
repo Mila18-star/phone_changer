@@ -1,13 +1,13 @@
 ##стартовый модуль проекта
 
 
-
-# import зависимость из задания
+from functions import fanc1, fanc2   #TODO переименовать функции
 
 
 def main():
   pass
 
-if__name__ == "__main__":
+if __name__ == "__main__":
+  pass
 
-#смотри фото
+ 
