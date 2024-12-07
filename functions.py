@@ -1,13 +1,11 @@
 ## модуль для импорта функций 
 
 
-#TODO inport зависимость из задания
+import pandas as pd
+def func1(n):
+    """Функция 1"""
+input_file = "phone_numbers.xlsx"  # Указали путь к файлу
+output_file = "cleaned_phones.xlsx"      # Выходной файл
 
-
-def fanc1(n):
-    pass
-
-def fanc2(n):
-    pass
-
-#задали структуру 
+# Считали данные из Excel файла
+df = pd.read_excel(input_file)
