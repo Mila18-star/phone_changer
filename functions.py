@@ -8,6 +8,16 @@ def func1(n):
     pass
 
 
-def func2(n):
+def clean_phone_number(phone_number):
     """Функция 2"""
-    pass
+    # Номера телефонов находятся в столбике 'phone_number'
+    return ''.join(filter(str.isdigit, str(phone_number)))
+
+def apply_changes(path, output_file):
+    df = func1(path)
+
+    # Применяем функцию к столбику с номерами телефонов
+    df['cleaned_phone_number'] = df['phone_number'].apply(clean_phone_number)
+
+    # Сохраняем результат в новый файл .xlsx
+    df.to_excel(output_file, index=False)
