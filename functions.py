@@ -10,7 +10,6 @@ def read_data(n):
     # Считали данные из Excel файла
     return pd.read_excel(input_file)
 
-
 def clean_phone_number(phone_number):
     """Функция 2"""
     # Номера телефонов находятся в столбике 'phone_number'
