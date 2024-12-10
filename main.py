@@ -1,12 +1,14 @@
-##стартовый модуль проекта
- 
-from functions import fanc1, fanc2    
+## main стартовый модуль проекта
+#project 4
 
-from functions import fanc1, fanc2    
+# TODO - переименовать функции
+from functions import func1, func2
 
 def main():
-  pass
+    #TODO - сделай вызов функций из functions
+    pass
 
-if __name__ == "__main__":
-  pass
+# инициализационный скрипт
+if __name__=="__main__":
+    main()
  
