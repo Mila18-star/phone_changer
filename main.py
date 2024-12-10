@@ -1,7 +1,6 @@
 ## main стартовый модуль проекта
 #project 4
 
-# TODO - переименовать функции
 from functions import apply_changes
  
 # инициализационный скрипт
