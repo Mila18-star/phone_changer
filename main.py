@@ -1,13 +1,13 @@
 ## main стартовый модуль проекта
 #project 4
 
-# TODO - переименовать функции
-from functions import func1, func2
-
-def main():
-    #TODO - сделай вызов функций из functions
-    pass
-
+from functions import apply_changes
+ 
 # инициализационный скрипт
 if __name__=="__main__":
-    main()
+    input_file = "phone_numbers.xlsx"
+    output_file = "cleaned_phones.xlsx"  
+    apply_changes(input_file, output_file)  # Передаем необходимые аргументы
+
+     
+  
